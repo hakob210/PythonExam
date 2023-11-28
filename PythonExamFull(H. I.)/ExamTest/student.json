@@ -1,0 +1,286 @@
+{
+  "student_name": "write your name",
+  "student_surname": "write your surname",
+  "exam_content": {
+    "1": {
+      "question": "Which of the following statements is used to create an empty set in Python?",
+      "d": "set()",
+      "a": "[ ]",
+      "b": "{ }",
+      "c": "( )"
+    },
+    "2": {
+      "question": "Is Python case sensitive when dealing with identifiers?",
+      "d": "yes",
+      "c": "no",
+      "b": "machine dependent",
+      "a": "none of the mentioned"
+    },
+    "3": {
+      "question": "Which of the following cannot be a variable?",
+      "c": "in",
+      "d": "__init__",
+      "b": "it",
+      "a": "on"
+    },
+    "4": {
+      "question": "Which is the correct operator for power(xy)?",
+      "d": "X**y",
+      "c": "X^y",
+      "a": "X^^y",
+      "b": "None of the mentioned"
+    },
+    "5": {
+      "question": "Which one of these is floor division?",
+      "b": "//",
+      "a": "/",
+      "c": "%",
+      "d": "None of the mentioned"
+    },
+    "6": {
+      "question": "What will be the output of the following Python code snippet?\ndef example(a):\na = a + '2'\na = a*2\nreturn a\n>>>example(\"hello\")",
+      "d": "indentation Error",
+      "a": "cannot perform mathematical operation on strings",
+      "b": "hello2",
+      "c": "hello2hello2"
+    },
+    "7": {
+      "question": "What is the average value of the following Python code snippet?\n>>>grade1 = 80\n>>>grade2 = 90\n>>>average = (grade1 + grade2) / 2",
+      "c": "85.0",
+      "a": "85.1",
+      "d": "95.0",
+      "b": "95.1"
+    },
+    "8": {
+      "question": "What is the result of round(0.5) \u2013 round(-0.5)?",
+      "d": "Value depends on Python version",
+      "b": "2.0",
+      "a": "0.0",
+      "c": "1.0"
+    },
+    "9": {
+      "question": "Which of the following is incorrect?",
+      "a": "x = 03964",
+      "b": "x = 0x4f5",
+      "c": "x = 19023",
+      "d": "x = 0b101"
+    },
+    "10": {
+      "question": "What will be the value of the following Python expression?\n4 + 3 % 5",
+      "a": "7",
+      "c": "4",
+      "b": "2",
+      "d": "0"
+    },
+    "11": {
+      "question": "What will be the value of x in the following Python expression?\nx = int(43.55+2/2)",
+      "c": "44",
+      "d": "43",
+      "b": "22",
+      "a": "23"
+    },
+    "12": {
+      "question": "It is not possible for the two\u2019s complement value to be equal to the original value in any case.",
+      "a": "False",
+      "c": "True",
+      "b": "non option",
+      "d": "non option"
+    },
+    "13": {
+      "question": "What will be the output of the following Python expression if x=15 and y=12?\nx & y",
+      "d": "12",
+      "c": "0b1101",
+      "b": "b1101",
+      "a": "1101"
+    },
+    "14": {
+      "question": "What will be the output of the following Python code snippet?\n['hello', 'morning'][bool('')]",
+      "b": "hello",
+      "d": "no output",
+      "c": "error",
+      "a": "morning"
+    },
+    "15": {
+      "question": "What will be the output of the following Python code?\nclass Truth:\npass\nx=Truth()\nbool(x)",
+      "c": "true",
+      "a": "pass",
+      "d": "false",
+      "b": "error"
+    },
+    "16": {
+      "question": "What will be the output of the following Python code?\n{0:.2f}'.format(1.234)",
+      "d": "\u20181.23\u2019",
+      "c": "\u20181.234\u2019",
+      "a": "\u20181\u2019",
+      "b": "\u20181.2\u2019"
+    },
+    "17": {
+      "question": "What will be the output of the following Python expression if X = -122?\nprint(\"-%06d\"%x)",
+      "d": "\u201300122",
+      "c": "000122",
+      "a": "-000122",
+      "b": "-00122"
+    },
+    "18": {
+      "question": "What will be the output of the following Python code?\n{0:f}, {1:2f}, {2:05.2f}'.format(1.23456, 1.23456, 1.23456)",
+      "b": "\u20181.234560, 1.234560, 01.23\u2019",
+      "c": "\u20181.234560, 1.22345, 1.23\u2019",
+      "d": "No output",
+      "a": "Error"
+    },
+    "19": {
+      "question": "What will be the output of the following Python code?\nD=dict(p='san', q='foundry')\n{p}{q}'.format(**D)",
+      "b": "sanfoundry",
+      "d": "Error",
+      "c": "san foundry",
+      "a": "{\u2018san\u2019, \u2018foundry\u2019}"
+    },
+    "20": {
+      "question": "What will be the output of the following Python code?\nD = {0, 1, 2}\nfor x in d:\nprint(x)",
+      "b": "0 1 2",
+      "c": "{0, 1, 2} {0, 1, 2} {0, 1, 2}",
+      "a": "error",
+      "d": "none of the mentioned"
+    },
+    "21": {
+      "question": "What will be the output of the following Python code?\nTrue = False\nwhile True:\nprint(True)\nBreak",
+      "d": "none of the mentioned",
+      "c": "False",
+      "b": "None",
+      "a": "True"
+    },
+    "22": {
+      "question": "What will be the output of the following Python code?\nprint('*', \"abcde\".center(6), '*', sep='')",
+      "c": "*abcde *",
+      "d": "* abcde *",
+      "b": "* abcde *",
+      "a": "* abcde*"
+    },
+    "23": {
+      "question": "To check whether string s1 contains another string s2, use ________",
+      "d": "s1.__contains__(s2)",
+      "a": "s2 in s1",
+      "c": "s1.contains(s2)",
+      "b": "si.in(s2)"
+    },
+    "24": {
+      "question": "What will be the output of the following Python code? a=[13,56,17] a.append([87]) a.extend([45,67]) print(a)",
+      "c": "[13, 56, 17, [87], 45, 67]",
+      "b": "[13, 56, 17, 87, 45, 67]",
+      "d": "[13, 56, 17, 87,[ 45, 67]]",
+      "a": "[13, 56, 17, [87], [45, 67]]"
+    },
+    "25": {
+      "question": "To add a new element to a list we use which command?",
+      "c": "list1.append(5)",
+      "d": "list1.add(5)",
+      "b": "list1.addLast(5)",
+      "a": "list1.addEnd(5)"
+    },
+    "26": {
+      "question": "What will be the output of the following Python code? r = [11, 12, 13, 14, 15, 16, 17, 18, 19] A = [[0, 10, 20], [30, 40, 50], [60, 70, 80]] for row in A: for col in row: r.append(col+10) r",
+      "c": "[11, 12, 13, 14, 15, 16, 17, 18, 19, 10, 20, 30, 40, 50, 60, 70, 80, 90]",
+      "a": "[10, 20, 30, 40, 50, 60, 70, 80, 90]",
+      "b": "[11, 12, 13, 14, 15, 16, 17, 18, 19]",
+      "d": "[0, 10, 20, 30, 40, 50, 60, 70, 80]"
+    },
+    "27": {
+      "question": "What will be the output of the following Python code? l1=[10, 20, 30] l2=[-10, -20, -30] l3=[x+y for x, y in zip(l1, l2)] l3",
+      "d": "[0, 0, 0]",
+      "b": "0",
+      "c": "[-20, -60, -80]",
+      "a": "Error"
+    },
+    "28": {
+      "question": "What will be the output of the following Python code? >>> a=(2,3,4) >>> sum(a,3)",
+      "c": "12",
+      "a": "The method sum() doesn\u2019t exist for tuples",
+      "d": "Too many arguments for sum() method",
+      "b": "9"
+    },
+    "29": {
+      "question": "What is the data type of (1)?",
+      "a": "Integer",
+      "b": "Tuple",
+      "c": "List",
+      "d": "Both tuple and integer"
+    },
+    "30": {
+      "question": "What will be the output of the following Python code? >>> a={1,2,3} >>> b=a.copy() >>> b.add(4) >>> a",
+      "a": "{1,2,3}",
+      "b": "Error, invalid syntax for add",
+      "c": "{1,2,3,4}",
+      "d": "Error, copying of sets isn\u2019t allowed"
+    },
+    "31": {
+      "question": "The ____________ function removes the first element of a set and the last element of a list.",
+      "b": "pop",
+      "d": "remove",
+      "a": "discard",
+      "c": "dispose"
+    },
+    "32": {
+      "question": "What will be the output of the following Python code snippet? d = {\"john\":40, \"peter\":45} print(list(d.keys()))",
+      "b": "[\u201cjohn\u201d, \u201cpeter\u201d]",
+      "a": "[\u201cjohn\u201d:40, \u201cpeter\u201d:45]",
+      "c": "(\u201cjohn\u201d, \u201cpeter\u201d)",
+      "d": "(\u201cjohn\u201d:40, \u201cpeter\u201d:45)"
+    },
+    "33": {
+      "question": "What will be the output of the following Python code? >>> a={'B':5,'A':9,'C':7} >>> sorted(a)",
+      "c": "[\u2018A\u2019,\u2019B\u2019,\u2019C\u2019]",
+      "b": "[\u2018B\u2019,\u2019C\u2019,\u2019A\u2019]",
+      "d": "[5,7,9]",
+      "a": "[9,5,7]"
+    },
+    "34": {
+      "question": "What will be the output of the following Python function? list(enumerate([2, 3]))",
+      "c": "[(0, 2), (1, 3)]",
+      "b": "[(1, 2), (2, 3)]",
+      "a": "Error",
+      "d": "[(2, 3)]"
+    },
+    "35": {
+      "question": "What will be the output of the following Python functions? chr(\u201897\u2019) chr(97)",
+      "d": "Error a",
+      "a": "\u2018a\u2019 a",
+      "c": "a Error",
+      "b": "Error Error"
+    },
+    "36": {
+      "question": "What will be the output of the following Python code? min = (lambda x, y: x if x < y else y) min(101*99, 102*98)",
+      "c": "9996",
+      "d": "9999",
+      "b": "9997",
+      "a": "None of the mentioned"
+    },
+    "37": {
+      "question": "What will be the output of the following Python code? def say(message, times = 1): print(message * times) say('Hello') say('World', 5)",
+      "d": "Hello WorldWorldWorldWorldWorld",
+      "b": "Hello World 5",
+      "a": "Hello World,World,World,World,World",
+      "c": "Hello HelloHelloHelloHelloHello"
+    },
+    "38": {
+      "question": "What will be the output of the following Python code? def foo(x): x = ['def', 'abc'] return id(x) q = ['abc', 'def'] print(id(q) == foo(q))",
+      "d": "False",
+      "c": "True",
+      "a": "None",
+      "b": "Error"
+    },
+    "39": {
+      "question": "What will be the output of the following Python code? def foo(x): x[0] = ['def'] x[1] = ['abc'] return id(x) q = ['abc', 'def'] print(id(q) == foo(q))",
+      "a": "True",
+      "c": "False",
+      "b": "None",
+      "d": "Error"
+    },
+    "40": {
+      "question": "What will be the output of the following Python code? def f(p, q, r): global s p = 10 q = 20 r = 30 s = 40 print(p,q,r,s) p,q,r,s = 1,2,3,4 f(5,10,15)",
+      "d": "10 20 30 40",
+      "a": "5 10 15 4",
+      "c": "1 2 3 4",
+      "b": "5 10 15 40"
+    }
+  }
+}
